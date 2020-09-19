@@ -1,0 +1,70 @@
+.webdev {
+  padding-top: 134px;
+  padding-bottom: 89px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.webdev__header {
+  margin-bottom: 23px;
+}
+
+.webdev__header h2 {
+  margin: 0;
+
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+}
+
+.webdev__description {
+  max-width: 504px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.webdev__description p {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.webdev__btn-wrap {
+  max-width: 184px;
+  margin: 0 auto;
+  margin-bottom: 183px;
+  //margin-bottom: 11.35vw;
+}
+
+.webdev__social-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-right: -30px;
+
+  list-style: none;
+}
+
+.webdev__social-item {
+  margin-right: 30px;
+}
+
+.webdev__social-link {
+  transition: $default-transition-settings;
+}
+
+.webdev__social-link:hover {
+  opacity: 0.8;
+}
+
+.webdev__social-link svg {
+  fill: transparent;
+}

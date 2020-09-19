@@ -1,0 +1,19 @@
+.btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 47px;
+  padding-right: 47px;
+
+  display: inline-block;
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  transition: $default-transition-settings;
+  background-color: #00AFDB;
+}
+
+.btn:hover {
+  background-color: #009CC2;
+}
