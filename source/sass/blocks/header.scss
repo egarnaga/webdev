@@ -1,4 +1,4 @@
-.header {
+/* .header {
   display: flex;
   align-items: center;
   min-height: 100px;
@@ -33,4 +33,15 @@
   .main-nav__toggle {
     display: none;
   }
+} */
+
+.header {
+
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url(../img/bg/bg-image-1@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
 }

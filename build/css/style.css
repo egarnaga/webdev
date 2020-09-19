@@ -537,39 +537,50 @@ a {
   color: #ffffff;
   text-decoration: none; }
 
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+/* .header {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   min-height: 100px;
   padding: 0 40px;
-  background-color: #2c39f2; }
-  .header__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
+
+  background-color: $color-blue;
+
+  &__wrapper {
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .header a,
-  .header p {
-    color: #f2f2f2; }
-  .header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    align-items: center;
+  }
+
+  a,
+  p {
+    color: $color-white;
+  }
+
+  ul {
     display: flex;
     margin: 0;
     margin-right: 20px;
     margin-left: 60px;
     padding: 0;
-    list-style: none; }
-    .header ul li {
-      margin-right: 20px; }
-  .header .main-nav__toggle {
-    display: none; }
+
+    list-style: none;
+
+    li {
+      margin-right: 20px;
+    }
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+} */
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url(../img/bg/bg-image-1@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover; }
 
 .footer {
   min-height: 100px;
