@@ -909,6 +909,45 @@ a {
 .slider__slide img {
   width: 407px; }
 
+.implement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 120px;
+  padding-bottom: 140px; }
+
+.implement__img {
+  margin-right: 139px; }
+
+.implement__img img {
+  line-height: 0; }
+
+.implement__text-wrap {
+  max-width: 407px;
+  margin-top: 198px; }
+
+.implement__header {
+  margin-bottom: 21px; }
+
+.implement__header h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737; }
+
+.implement__description {
+  margin-bottom: 30px; }
+
+.implement__description p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4E4E4E; }
+
 /* .footer {
   min-height: 100px;
   padding: 0 60px;
