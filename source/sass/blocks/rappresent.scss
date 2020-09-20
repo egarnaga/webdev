@@ -1,0 +1,42 @@
+.rappresent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+
+.rappresent__text-wrap {
+  max-width: 407px;
+  margin-top: 174px;
+}
+
+.rappresent__header {
+  margin-bottom: 23px;
+}
+
+.rappresent__header h2 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.rappresent__description {
+  margin-bottom: 30px;
+}
+
+.rappresent__description p {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #4E4E4E;
+}
+
+.rappresent__img img {
+  line-height: 0;
+}

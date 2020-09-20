@@ -6,4 +6,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../img/bg/bg-image-1@2x.jpg");
+  }
 }
