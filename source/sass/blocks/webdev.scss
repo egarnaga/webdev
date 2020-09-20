@@ -1,12 +1,13 @@
 .webdev {
-  padding-top: 134px;
-  padding-bottom: 89px;
+  height: calc(100% - 94px);
+  position: relative;
+  padding-top: 8.4%;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .webdev__header {
-  margin-bottom: 23px;
+  margin-bottom: 1.45%;
 }
 
 .webdev__header h2 {
@@ -23,7 +24,7 @@
 .webdev__description {
   max-width: 504px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 1.9%;
 }
 
 .webdev__description p {
@@ -39,8 +40,14 @@
 .webdev__btn-wrap {
   max-width: 184px;
   margin: 0 auto;
-  margin-bottom: 183px;
-  //margin-bottom: 11.35vw;
+  //margin-bottom: 11.75%;
+}
+
+.webdev__wrap-social {
+  position: absolute;
+  left: 50%;
+  bottom: 85px;
+  transform: translate(-50%);
 }
 
 .webdev__social-list {
