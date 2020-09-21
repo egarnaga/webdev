@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 
   <meta charset="UTF-8">
@@ -263,7 +263,25 @@
         </div>
       </section>
 
-      <section class="sign-up"></section>
+      <section class="sign-up">
+        <div class="sign-up__wrap">
+          <div class="sign-up__header">
+            <h2>sign up for our newsletter</h2>
+          </div>
+
+          <form class="sign-up__form form" method="POST">
+            <div class="form__field">
+              <label class="visually-hidden" for="e-mail">Enter your e-mail</label>
+              <input id="e-mail" type="email" name="e-mail" value="" placeholder="E-mail" required="">
+            </div>
+            <button class="form__btn" id="btn" type="submit" aria-label="Sign up">
+              <svg width="18" height="14">
+                <use xlink:href="#icon-check"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
 
       <section class="download wrap"></section>
     </main>

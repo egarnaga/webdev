@@ -1,0 +1,33 @@
+.sign-up {
+  background-color: black;
+  background-image: url(../img/bg/bg-image-2@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../img/bg/bg-image-2@2x.jpg");
+  }
+}
+
+.sign-up__wrap {
+  max-width: 406px;
+  margin: 0 auto;
+  padding-top: 199px;
+  padding-bottom: 219px;
+}
+
+.sign-up__header {
+  margin-bottom: 31px;
+}
+
+.sign-up__header h2 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
