@@ -1,3 +1,94 @@
 .download {
-  min-height: 300px;
+  background-color: #F5F6F7;
+}
+
+.download__wrap {
+  max-width: 520px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.download__header {
+  margin-bottom: 20px;
+}
+
+.download__header h2 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.download__description {
+  margin-bottom: 30px;
+}
+
+.download__description p {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #4E4E4E;
+}
+
+.download__wrap-btn {
+  display: flex;
+  max-width: 402px;
+  margin: 0 auto;
+}
+
+.download__btn {
+  display: flex;
+  max-width: 186px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  vertical-align: middle;
+
+  background-color: #00AFDB;
+}
+
+.download__btn--apple {
+  margin-right: 30px;
+}
+
+.download__btn-text {
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  transition: $default-transition-settings;
+  background-color: #00AFDB;
+}
+
+.download__btn--android .download__btn-text {
+  padding-left: 16px;
+  padding-right: 17px;
+}
+
+.download__btn-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  height: 46px;
+
+  background-color: #009CC2;
+}
+
+.download__btn:hover .download__btn-text {
+  background-color: #009CC2;
 }
